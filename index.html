@@ -1,0 +1,253 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+
+<body>
+<div class="audio">
+    <input type="checkbox" class="music">
+    <div class="music-but"></div>
+    <audio controls="controls" autoplay loop style="">
+        <source src="files/bg-music.mp3" type="audio/mp3">
+    </audio>
+</div>
+    <div class="container">
+        <div class="turns">
+            <img src="files/turn.png">
+            <img src="files/turn-1.png">
+            <img src="files/turn-2.png">
+        </div>
+        <video playsinline autoplay muted loop  id="bgvidback">
+            <source src="files/lvl1-bg.mp4" type="video/mp4">
+        </video>
+
+        <div id="start">
+            <div class="filter"></div>
+            <video playsinline autoplay muted loop id="bgvid">
+                <source src="files/start-bg.mp4" type="video/mp4">
+            </video>
+            <div>
+                <p>SPOT THE DI<span class="mirror">F</span>FERENCE</p>
+                <p class="typee">Can you spot the difference in the right images from the left ones?
+                </p>
+                <p><br>(Enable audio for the best experience)</p>
+                <a href="#lvl1">Start</a>
+                <p>Programmed by: Justin Jacob B.
+                    Rosario (10-ROENTGEN)</p>
+                <h3>｡・‿・｡</h3>
+            </div>
+            <div class="start-bot-bg">
+                <div class="start-bot"></div>
+            </div>
+        </div>
+        <div id="lvl1">
+            <div class="back back1">
+                <a href="#start">
+                    <button>
+                        BACK
+                    </button>
+                </a>
+            </div>
+            <input type="checkbox" class="ans">
+            <div class="key"></div>
+            <div class="ques">
+                <p>Can you find something anomalous?</p>
+            </div>
+            <div class="wrapper w1">
+                <div></div>
+                <div></div>
+            </div>
+            <input type="checkbox" class="but b1">
+            <div class="ring r1"></div>
+            <div class="comp">
+                <div class="comend c1"></div>
+                <a href="#lvl2">
+                    <p>Proceed to level 2</p>
+                </a>
+            </div>
+
+
+
+        </div>
+        <div id="lvl2">
+            <div class="back back2">
+                <a href="#lvl1">
+                    <button>
+                        BACK
+                    </button>
+                </a>
+            </div>
+            <input type="checkbox" class="ans">
+            <div class="key"></div>
+            <div class="ques">
+                <p>Can you find something anomalous?</p>
+            </div>
+            <div class="wrapper w2">
+                <div></div>
+                <div></div>
+            </div>
+            <input type="checkbox" class="but b2">
+            <div class="ring r2"></div>
+            <div class="comp">
+                <div class="comend c2"></div>
+                <a href="#lvl3">
+                    <p>Proceed to level 3</p>
+                </a>
+            </div>
+
+        </div>
+        <div id="lvl3">
+            <div class="back back3">
+                <a href="#lvl2">
+                    <button>
+                        BACK
+                    </button>
+                </a>
+            </div>
+            <input type="checkbox" class="ans">
+            <div class="key"></div>
+            <div class="ques">
+                <p>Can you find something anomalous?</p>
+            </div>
+            <div class="wrapper w3">
+                <div></div>
+                <div></div>
+            </div>
+            <input type="checkbox" class="but b3">
+            <div class="ring r3"></div>
+            <div class="comp">
+                <div class="comend c3"></div>
+                <a href="#lvl4">
+                    <p>Proceed to level 4</p>
+                </a>
+            </div>
+
+        </div>
+        <div id="lvl4">
+            <div class="back back4">
+                <a href="#lvl3">
+                    <button>
+                        BACK
+                    </button>
+                </a>
+            </div>
+            <input type="checkbox" class="ans">
+            <div class="key"></div>
+            <div class="ques">
+                <p>Can you find something anomalous?</p>
+            </div>
+            <div class="wrapper w4">
+                <div></div>
+                <div></div>
+            </div>
+            <input type="checkbox" class="but b4">
+            <div class="ring r4"></div>
+            <div class="comp">
+                <div class="comend c4"></div>
+                <a href="#lvl5">
+                    <p>Proceed to level 5</p>
+                </a>
+            </div>
+
+
+        </div>
+        <div id="lvl5">
+            <div class="back back5">
+                <a href="#lvl4">
+                    <button>
+                        BACK
+                    </button>
+                </a>
+            </div>
+            <input type="checkbox" class="ans">
+            <div class="key"></div>
+            <div class="ques">
+                <p>Can you find something anomalous?</p>
+            </div>
+            <div class="wrapper w5">
+                <div></div>
+                <div></div>
+            </div>
+            <input type="checkbox" class="but b5">
+            <div class="ring r5"></div>
+            <div class="comp">
+                <div class="comend c5"></div>
+                <a href="#win">
+                    <p>Proceed</p>
+                </a>
+            </div>
+
+        </div>
+        <div id="win">
+
+
+            <p>CONGRATULATIONS! <br>YOU'VE COMPLETED THE GAME</p>
+            <a href="#content" class="content">
+                <h1 class="p-previous">
+                    Go back to previous levels
+                </h1>
+            </a>
+            <div class="back home">
+                <a href="index.html">
+                    <button>
+                        HOME
+                    </button>
+                </a>
+            </div>
+            <div class="trophy"></div>
+
+            <div>
+
+            </div>
+
+
+        </div>
+        <div id="content">
+            <div class="back home">
+                <a href="index.html">
+                    <button>
+                        HOME
+                    </button>
+                </a>
+            </div>
+            <div class="glass"></div>
+            <div class="levelselect">Choose your Level:</div>
+            <div class="slider">
+                <div class="images">
+                    <input type="radio" name="slide" id="img1" checked>
+                    <input type="radio" name="slide" id="img2">
+                    <input type="radio" name="slide" id="img3">
+                    <input type="radio" name="slide" id="img4">
+                    <input type="radio" name="slide" id="img5">
+
+                    <a href="#lvl1" class="m1"><img src="files/lv1.JPG"></a>
+                    <a href="#lvl2" class="m2"><img src="files/lv2.JPG"></a>
+                    <a href="#lvl3" class="m3"><img src="files/lv3.JPG"></a>
+                    <a href="#lvl4" class="m4"><img src="files/lv4.JPG"></a>
+                    <a href="#lvl5" class="m5"><img src="files/lv5.JPG"></a>
+
+                </div>
+                <div class="dots">
+                    <label for="img1"></label>
+                    <label for="img2"></label>
+                    <label for="img3"></label>
+                    <label for="img4"></label>
+                    <label for="img5"></label>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
